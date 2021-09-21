@@ -207,7 +207,6 @@ body {
     word-spacing: 10px;
     font-family: 'Anton', sans-serif;
     min-height: 100px;
-    
     border-radius: 10px;
     border: solid gray 10px;
     animation-duration: 5s;
@@ -563,5 +562,89 @@ main {
     .flex-containerDIV1 {
         align-items: center;
         justify-content: center;
+    }
+    /* MAP GOOGLE */
+     :root {
+        /* Font Color */
+        --light-theme: #f8f9fa;
+        /* Circle Width */
+        --circle-diameter: 300px;
+        /* Font Family */
+        --fonts-style-x: 'neuzeit-grotesk', sans-serif;
+        --fonts-style-y: 'neuzeit-grotesk', sans-serif;
+        /* Font Weight */
+        --light: 300;
+        --regular: 400;
+        --bold: 700;
+        --black: 900;
+    }
+    /* ------------- */
+    /* Basic Setting */
+    /* ------------- */
+    html,
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
+    main {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        min-height: 640px;
+        background-color: var(--light-theme);
+    }
+     ::selection {
+        color: #fff;
+        background-color: var(--light-theme);
+    }
+    /* ------------- */
+    /* Content Style */
+    /* ------------- */
+    .google-map {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: var(--circle-diameter);
+        height: var(--circle-diameter);
+        overflow: hidden;
+        border-radius: var(--circle-diameter);
+        background-color: #eee;
+        transition: 5000ms;
+        cursor: grab;
+    }
+    /*
+.google-map::after {
+    content: "";
+    position: absolute;
+    width: var(--circle-diameter);
+    height: var(--circle-diameter);
+    border-radius: var(--circle-diameter);
+    background: radial-gradient(circle, #ffffff00 0%, #f8f9fa 50%);
+    pointer-events: none;
+}
+*/
+    .google-map .map-frame {
+        width: 100%;
+        height: 100vh;
+        background-color: var(--light-theme);
+    }
+    .google-map iframe {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        pointer-events: visibleStroke;
+    }
+    /* ------------------ */
+    /* Interactive Effect */
+    /* ------------------ */
+    .google-map:hover {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
     }
 }
