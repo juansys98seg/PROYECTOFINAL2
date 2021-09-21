@@ -215,7 +215,7 @@
     }
     
     .flex-containerDIV1 h1 {
-        text-decoration: #fc8d14 2px underline;
+        text-decoration: #fc8d14 2px underline !important;
         font-size: 40px;
         line-height: 50px;
     }
@@ -376,7 +376,7 @@
         /* Font Color */
         --light-theme: #f8f9fa;
         /* Circle Width */
-        -webkit---circle-diameter: 300px;
+        --circle-diameter: 300px !important;
         /* Font Family */
         --fonts-style-x: 'neuzeit-grotesk', sans-serif;
         --fonts-style-y: 'neuzeit-grotesk', sans-serif;
@@ -544,9 +544,6 @@
         -webkit-transform: rotateY(180deg);
         transform: rotateY(180deg);
         padding: 15px;
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
@@ -557,9 +554,9 @@
         -ms-flex-align: center;
         align-items: center;
         text-align: center;
-        color: #fff;
-        font-family: 'Oswald', sans-serif!important;
-        background: #F29720;
+        color: #fff !;
+        font-family: 'Oswald', sans-serif !important;
+        background: #F29720 !important;
     }
     
     .tarjeta-wrap:hover .tarjeta {
@@ -640,7 +637,7 @@
         }
         .flex-containerDIV1 h1 {
             line-height: 40px;
-            -webkit-text-decoration: orange underline;
+            text-decoration: orange underline !important;
         }
         .flex-containerDIV1 p {
             margin-top: 5%;
