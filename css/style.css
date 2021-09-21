@@ -215,7 +215,7 @@
     }
     
     .flex-containerDIV1 h1 {
-        text-decoration: orange 2px underline;
+        text-decoration: #fc8d14 2px underline;
         font-size: 40px;
         line-height: 50px;
     }
@@ -376,7 +376,7 @@
         /* Font Color */
         --light-theme: #f8f9fa;
         /* Circle Width */
-        --circle-diameter: 300px;
+        -webkit---circle-diameter: 300px;
         /* Font Family */
         --fonts-style-x: 'neuzeit-grotesk', sans-serif;
         --fonts-style-y: 'neuzeit-grotesk', sans-serif;
@@ -558,7 +558,7 @@
         align-items: center;
         text-align: center;
         color: #fff;
-        font-family: "Oswald";
+        font-family: 'Oswald', sans-serif!important;
         background: #F29720;
     }
     
