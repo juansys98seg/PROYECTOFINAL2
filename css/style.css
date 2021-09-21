@@ -215,7 +215,8 @@
     }
     
     .flex-containerDIV1 h1 {
-        text-decoration: #fc8d14 2px underline !important;
+        -webkit-text-decoration: orange underline !important;
+        text-decoration: orange underline !important;
         font-size: 40px;
         line-height: 50px;
     }
@@ -637,6 +638,7 @@
         }
         .flex-containerDIV1 h1 {
             line-height: 40px;
+            -webkit-text-decoration: orange underline !important;
             text-decoration: orange underline !important;
         }
         .flex-containerDIV1 p {
