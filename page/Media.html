@@ -101,43 +101,59 @@
 
 
 
-    <!-- Slider BS -->
 
-    <div id="carouselExampleControls" class="carousel slide sliderW " data-bs-ride="carousel" width=4 50>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="../images/img-1.jpg" class="d-block w-100 p-3" alt="..." width="300px" height="450">
-            </div>
-            <div class="carousel-item">
-                <img src="../images/img-2.jpg" class="d-block w-100 p-3" alt="..." width="300px" height="450">
-            </div>
-            <div class="carousel-item">
-                <img src="../images/img-3.jpg" class="d-block w-100 p-3 " alt="..." width="300px" height="450">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-    </div>
+
+
+
+
+
+
 
 
     <!-- Flexbox Responsive aplicado a Galeria de imagenes -->
 
 
+
+
+
     <div class="container">
-        <img class="containerImg" src="../images/img-1.jpg" alt="">
-        <img class="containerImg" src="../images/img-2.jpg" alt="">
-        <img class="containerImg" src="../images/img-3.jpg" alt="">
-        <img class="containerImg" src="../images/img-4.jpg" alt="">
-        <img class="containerImg" src="../images/img-5.jpg" alt="">
-        <img class="containerImg" src="../images/img-6.jpg" alt="">
-        <img class="containerImg" src="../images/resto1.jpg" alt="">
-        <img class="containerImg" src="../images/resto2.jpg" alt="">
+
+        <div class="wrapper">
+            <div class="gallery">
+                <div class="image"><span><img src="../images/cafe.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../images/giftcard.png" alt=""></span></div>
+                <div class="image"><span><img src="../images/img-3.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../images/img-4.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../images/img-5.jpg" alt=""></span></div>
+                <div class="image"><span><img src="../images/img-6.jpg" alt=""></span></div>
+            </div>
+        </div>
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <i class="icon far fa-window-close"></i>
+            </div>
+            <div class="image-box">
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="/images/img-4.jpg" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+        <div class="galeria2">
+            <img class="containerImg" src="../images/img-1.jpg" alt="">
+            <img class="containerImg" src="../images/img-2.jpg" alt="">
+            <img class="containerImg" src="../images/img-3.jpg" alt="">
+            <img class="containerImg" src="../images/img-4.jpg" alt="">
+            <img class="containerImg" src="../images/img-5.jpg" alt="">
+            <img class="containerImg" src="../images/img-6.jpg" alt="">
+            <img class="containerImg" src="../images/resto1.jpg" alt="">
+            <img class="containerImg" src="../images/resto2.jpg" alt="">
+        </div>
+
+
+
+
 
     </div>
 
@@ -191,9 +207,10 @@
     <!-- Linkeo de JS -->
 
     <script src="../js/MenuToggle.js" defer></script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
+    <script src="https://kit.fontawesome.com/2a6f43630e.js" crossorigin="anonymous"></script>
+
+    <script src="../js/gallery.js" defer></script>
 </body>
 
 </html>
