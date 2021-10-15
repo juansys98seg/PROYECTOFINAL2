@@ -21,31 +21,44 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
 <!--   ////////////////////////////// -->
+
+
+
+
 <!-- BARRA DE NAVEGACION QUE SERIA EL MENU -->
-<nav class="BarraNavInterna ">
+<!-- NAVBAR -->
+<header>
 
-    <div>
+    <!-- NAVBAR -->
+    <nav class="BarraNavInterna ">
+        <div>
+            <a href="#">
+                <img src="../images/image0.png" class="LogoBarra"> </a>
+        </div>
+        <a href='#' class="ToggleButton">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
 
-        <a href="#">
+        <div class="MenuFlex">
 
-            <img src="../images/image0.png" class="BarraNavegacion__Logo"> </a>
-    </div>
-    <a href='#' class="ToggleButton">
+            <ul>
+                <li> <a href="../index.html">Home</a> </li>
+                <li> <a href="../page/Menu.html">Menú</a></li>
+                <li><a href="../page/Media.html">Media</a></li>
+                <li> <a href="../page/Eventos.html">Eventos</a> </li>
+                <li> <a href="../page/Contacto.html">Contacto</a> </li>
+            </ul>
 
-        <span class="ToggleButton__bar"></span>
-        <span class="ToggleButton__bar"></span>
-        <span class="ToggleButton__bar"></span>
-    </a>
-    <div class="MenuFlex">
-        <ul>
-            <li> <a href="../index.html">Home</a> </li>
-            <li> <a href="../page/Menu.html">Menú</a></li>
-            <li><a href="../page/Media.html">Media</a></li>
-            <li> <a href="Eventos.html">Eventos</a> </li>
-            <li> <a href="../page/Contacto.html">Contacto</a> </li>
-        </ul>
-    </div>
-</nav>
+        </div>
+
+    </nav>
+
+
+
+
+</header>
 
 <article>
 
@@ -200,9 +213,17 @@
     </div>
 </footer>
 
+
+
 <!-- Linkeo de JS -->
 
-<script src="../js/MenuToggle.js " defer></script>
+<script src="../js/MenuToggle.js" defer></script>
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/2a6f43630e.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

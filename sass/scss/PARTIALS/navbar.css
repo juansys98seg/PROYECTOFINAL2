@@ -1,41 +1,31 @@
 .BarraNavInterna {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     color: white;
     background-color: black;
     z-index: 999;
     position: fixed;
-    margin-bottom: 10vw;
 }
 
-.BarraNavegacion__Logo {
-    width: 8rem;
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    padding-left: 5%;
-    margin-left: 0;
-}
-
-.BarraNavegacion__Logo:hover {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+.BarraNavInternaMENU {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: black;
+    z-index: 999;
 }
 
 .MenuFlex ul {
-    margin: 0;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    margin-bottom: 0.97rem;
+    padding-top: 10px;
     display: flex;
 }
 
 .MenuFlex li {
     list-style: none;
+    padding-bottom: 0px;
 }
 
 .MenuFlex li a {
@@ -43,10 +33,12 @@
     color: white;
     padding: 1rem;
     display: block;
+    padding-bottom: 1px;
 }
 
 .MenuFlex li:hover {
-    background-color: #206cc4;
+    background-color: rgb(32, 108, 196);
+    padding-bottom: 0;
 }
 
 .ToggleButton {
@@ -54,36 +46,25 @@
     top: .75rem;
     right: 1rem;
     display: none;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 30px;
     height: 21px;
 }
 
-.ToggleButton .ToggleButton__bar {
+.ToggleButton .bar {
     height: 3px;
     width: 100%;
     background-color: white;
     border-radius: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
 }
 
 .MenuFlex {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     padding-right: 10px;
     margin-right: 480px;
     border: aqua;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     font-family: 'Oswald', sans-serif;
 }
@@ -97,5 +78,28 @@
     opacity: 0.7;
 }
 
+.LogoBarra {
+    width: 8rem;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    margin-left: 0;
+}
 
-/*# sourceMappingURL=navbar.css.map */
+.LogoBarra:hover {
+    transform: scale(1.5);
+}
+
+ul .menu .simple {
+    padding-right: 100%;
+    justify-content: space-between;
+}
+
+.BarraNavInternaMENU {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background-color: black;
+    z-index: 999;
+}

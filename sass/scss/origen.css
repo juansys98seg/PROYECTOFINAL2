@@ -1,20 +1,10 @@
 /* Imports */
-@import url(./IMPORTS/navbar.css);
+@import url(./PARTIALS/navbar.css);
 @import url(./IMPORTS/footer.css);
 @import url(./IMPORTS/map.css);
-@import url(/node_modules/bootstrap/scss/bootstrap);
-@import url(/sass/scss/IMPORTS/ImagenTop.css);
-/* IMPORT DE BOOTSTRAP */
-@import url(/node_modules/bootstrap/scss/functions);
-@import url(/node_modules/bootstrap/scss/variables);
-@import url(/node_modules/bootstrap/scss/mixins);
-@import url(/node_modules/bootstrap/scss/root);
-@import url(/node_modules/bootstrap/scss/reboot);
-@import url(/node_modules/bootstrap/scss/type);
-@import url(/node_modules/bootstrap/scss/images);
-@import url(/node_modules/bootstrap/scss/containers);
-@import url(/node_modules/bootstrap/scss/grid);
-/* Variables */
+@import url(./node_modules/bootstrap/scss/bootstrap);
+@import url(./PARTIALS/TopImagen.css);
+@import url(./PARTIALS/mediaquerys.css);
 /* Lista */
 /* Each Loop */
 .div {

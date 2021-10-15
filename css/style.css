@@ -25,6 +25,10 @@
                 line-height: 1.6;
             }
             
+            .ParrafoLorem h3 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            
             .giftcard {
                 width: 200px;
                 height: 150px;
@@ -105,6 +109,15 @@
                 background-color: black;
                 z-index: 999;
                 position: fixed;
+            }
+            
+            .BarraNavInternaMENU {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                color: white;
+                background-color: black;
+                z-index: 999;
             }
             
             .MenuFlex ul {
@@ -224,13 +237,31 @@
             .flex-containerDIV1 h1 {
                 -webkit-text-decoration: orange underline !important;
                 text-decoration: orange underline !important;
+                color: rgb(255, 255, 255);
                 font-size: 40px;
                 line-height: 50px;
             }
             
+            .flex-containerDIV1 .h2 {
+                text-decoration: orange underline;
+            }
+            
             .P1 {
                 font-size: 20px;
-                font-family: sans-serif;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                color: rgb(255, 255, 255);
+                box-sizing: border-box;
+                border-color: yellow;
+                text-decoration: orange underline;
+            }
+            
+            .DIV1LINK {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                padding-bottom: 100px;
+            }
+            
+            .DIV1LINK:hover {
+                color: rgba(211, 211, 9, 0.87);
             }
             
             .button {
@@ -534,7 +565,6 @@
             .tarjeta {
                 width: 200px;
                 height: 300px;
-                background: #F29720;
                 position: relative;
                 -webkit-transform-style: preserve-3d;
                 transform-style: preserve-3d;
@@ -555,10 +585,20 @@
                 backface-visibility: hidden;
             }
             
+            .atras {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding-left: 100px;
+                font-family: 'Oswald' sans-serif;
+                ;
+            }
+            
             .atras p {
-                color: rgba(206, 26, 26, 0.747);
+                color: rgb(255, 255, 255);
                 font-size: 35px;
                 padding-bottom: 100px;
+                font-family: 'Roboto Mono', monospace;
             }
             
             .adelante {
@@ -749,6 +789,96 @@
                 z-index: 2;
                 display: none;
                 background: rgba(0, 0, 0, 0.45);
+            }
+            /* PAGINA MENU NUESTRO EQUIPO */
+            
+            .Personal {
+                margin-top: px;
+                text-align: center;
+            }
+            
+            .Personal h1 {
+                font-family: 'Oswald', sans-serif;
+                font-size: 48px;
+                color: #fff;
+                margin-bottom: 25px;
+            }
+            
+            .our_team {
+                width: auto;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .our_team .team_member {
+                width: 250px;
+                margin: 5px;
+                background: #fff;
+                padding: 20px 10px;
+            }
+            
+            .our_team .team_member .member_img {
+                background: #e9e5fa;
+                max-width: 190px;
+                width: 100%;
+                height: 190px;
+                margin: 0 auto;
+                border-radius: 50%;
+                padding: 5px;
+                position: relative;
+                cursor: pointer;
+            }
+            
+            .our_team .team_member .member_img img {
+                width: 100%;
+                height: 100%;
+            }
+            
+            .our_team .team_member h3 {
+                text-transform: uppercase;
+                font-size: 18px;
+                line-height: 18px;
+                letter-spacing: 2px;
+                margin: 15px 0 0px;
+            }
+            
+            .our_team .team_member span {
+                font-size: 10px;
+            }
+            
+            .our_team .team_member p {
+                margin-top: 20px;
+                font-size: 14px;
+                line-height: 20px;
+            }
+            
+            .our_team .team_member .member_img .social_media {
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                background: rgba(0, 0, 0, 0.65);
+                width: 95%;
+                height: 95%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: scale(0);
+                transition: all 0.5s ease;
+            }
+            
+            .our_team .team_member .member_img .social_media .item {
+                margin: 0 10px;
+            }
+            
+            .our_team .team_member .member_img .social_media .fab {
+                color: #8c7ae6;
+                font-size: 20px;
+            }
+            
+            .our_team .team_member .member_img:hover .social_media {
+                transform: scale(2);
             }
             
             @media(max-width: 1000px) {
