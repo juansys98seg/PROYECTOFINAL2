@@ -1050,7 +1050,7 @@
                 }
                 .wrap {
                     width: 100%;
-                    display: block;
+                    display: inline;
                 }
                 .tarjeta-wrap {
                     margin: 10px;
@@ -1060,19 +1060,18 @@
                 .tarjeta {
                     width: 300px;
                     height: 350px;
-                    background: #F29720;
                     position: relative;
-                    -webkit-transform-style: preserve-3d;
-                    transform-style: preserve-3d;
-                    -webkit-transition: .7s ease;
-                    transition: .7s ease;
-                    -webkit-box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
-                    box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.65);
+                    -webkit-transform-style: preserve-3d !important;
+                    transform-style: preserve-3d !important;
+                    -webkit-transition: .7s ease !important;
+                    transition: .7s ease !important;
+                    -webkit-box-shadow: 0px 10px 15px 5px rgba(231, 14, 14, 0.65);
+                    box-shadow: 0px 10px 15px 5px rgba(221, 11, 11, 0.65);
                 }
                 .adelante,
                 .atras {
-                    width: 100%;
-                    height: 100%;
+                    width: 100% !important;
+                    height: 100% !important;
                 }
                 .adelante {
                     width: 100%;
@@ -1080,9 +1079,6 @@
                 .atras {
                     -webkit-transform: rotateY(180deg);
                     transform: rotateY(180deg);
-                    display: -webkit-box;
-                    display: -webkit-flex;
-                    display: -ms-flexbox;
                     display: flex;
                     -webkit-box-pack: center;
                     -webkit-justify-content: center;
@@ -1095,11 +1091,10 @@
                     text-align: center;
                     color: #fff;
                     font-family: "Oswald";
-                    background: #F29720;
                 }
                 .tarjeta-wrap:hover .tarjeta {
-                    -webkit-transform: rotateY(180deg);
-                    transform: rotateY(180deg);
+                    -webkit-transform: rotateY(180deg) !important;
+                    transform: rotateY(180deg) !important;
                 }
                 .card1 {
                     background-image: url(../images/sandwich.jpg);
