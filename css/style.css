@@ -590,8 +590,8 @@
                 align-items: center;
                 text-align: center;
                 padding-left: 100px;
-                font-family: 'Oswald' sans-serif;
-                ;
+                font-family: 'Oswald' sans-serif !important;
+                z-index: 999;
             }
             
             .atras p {
@@ -603,6 +603,7 @@
             
             .adelante {
                 width: 100%;
+                z-index: -1;
             }
             
             .atras {
@@ -622,11 +623,12 @@
                 color: #fff !;
                 font-family: 'Oswald', sans-serif !important;
                 background: #16c99c8c !important;
+                z-index: 999;
             }
             
             .tarjeta-wrap:hover .tarjeta {
-                -webkit-transform: rotateY(180deg);
-                transform: rotateY(180deg);
+                -webkit-transform: rotateY(180deg) !important;
+                transform: rotateY(180deg) !important;
             }
             
             .card1 {
