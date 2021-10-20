@@ -1,0 +1,28 @@
+/* Imports */
+
+@import url(./PARTIALS/navbar.css);
+@import url(./IMPORTS/map.css);
+@import url(../node_modules/bootstrap/scss/bootstrap);
+@import url(./PARTIALS/TopImagen.css);
+@import url(./PARTIALS/mediaquerys.css);
+@import url(./PARTIALS/cardsUI.css);
+@import url(./PARTIALS/Article.css);
+@import url(./PARTIALS/googlemap.css);
+@import url(../node_modules/animate.css);
+@import url(./PARTIALS/footer.css);
+* {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+}
+
+body {
+    background-color: #03071e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* BACKGROUND IMAGES */
+
+
+/*# sourceMappingURL=origen.css.map */

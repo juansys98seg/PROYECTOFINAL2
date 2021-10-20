@@ -1,0 +1,100 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    left: 10px;
+    justify-content: space-between;
+    background-color: rgb(25, 170, 163);
+    background-image: url(images/fondodiv.jpg)
+}
+
+.flex-container>div {
+    background-color: rgba(128, 128, 128, 0.651);
+    width: 30%;
+    margin: 100px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 25px;
+    color: whitesmoke;
+    word-spacing: 10px;
+    font-family: 'Anton', sans-serif;
+    min-height: 50px;
+    border-radius: 10px;
+    border: solid gray 10px;
+    animation-duration: 5s;
+}
+
+.flex-containerDIV1 {
+    height: 400px;
+}
+
+.flex-containerDIV1 h1 {
+    -webkit-text-decoration: orange underline !important;
+    text-decoration: orange underline !important;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.flex-containerDIV1 .h2 {
+    text-decoration: orange underline;
+}
+
+.P1 {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border-color: yellow;
+    text-decoration: orange underline;
+}
+
+.DIV1LINK {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom: 100px;
+}
+
+.DIV1LINK:hover {
+    color: rgba(211, 211, 9, 0.87);
+}
+
+.button {
+    padding: 60px 40px 60px 40px;
+    font-size: 24px;
+    text-align: center;
+    cursor: grab;
+    outline: none;
+    color: #fff;
+    background-color: #2c8516;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #218154;
+    transform: scale(1.5);
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: orange;
+    padding-left: 10%;
+}
+
+.giftcard {
+    width: 200px;
+    height: 150px;
+    padding-top: 40px;
+}

@@ -1,0 +1,29 @@
+.card1 {
+    background-image: url(../images/sandwich.jpg);
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(/images/cafe.jpg);
+    background-size: cover;
+}
+
+.card3 {
+    background-image: url(/images/trago.jpg);
+    background-size: cover;
+}
+
+.card4 {
+    background-image: url(/images/ensalada.jpg);
+    background-size: cover;
+}
+
+.card5 {
+    background-image: url(/images/lomo.jpg);
+    background-size: cover;
+}
+
+.card6 {
+    background-image: url(/images/pancake.jpg);
+    background-size: cover;
+}
